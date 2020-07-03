@@ -1,0 +1,9 @@
+<h2>Chon mau:</h2>
+<div>
+  <input type="color" [value]="background" (change)="onChange($event.target.value)">
+</div>
+
+<p>Output: </p>
+<div class="color-preview" [style.background-color]="background">
+  <p>color</p>
+</div>
