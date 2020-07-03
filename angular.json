@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "animal"
+    }
+  },
+  "defaultProject": "animal",
+  "cli": {
+    "analytics": false
+  }
 }
